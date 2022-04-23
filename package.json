@@ -1,0 +1,30 @@
+{
+  "name": "homework4-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashchenkov/Advanced4.2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashchenkov/Advanced4.2/issues"
+  },
+  "homepage": "https://github.com/yashchenkov/Advanced4.2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.14.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "core-js": "^3.22.2"
+  }
+}
