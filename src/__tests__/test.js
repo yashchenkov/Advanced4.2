@@ -13,6 +13,6 @@ test('testing sort func', () => {
   ];
   const recieved = sort(arr);
 
-  expect(recieved).toEqual(expected);
+expect(recieved).toEqual(expected);
 
 });
