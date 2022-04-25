@@ -1,18 +1,18 @@
-import sort from '../sort.js';
+import sort from '../sort';
 
 test('testing sort func', () => {
-	const arr = [
-	  {name: 'мечник', health: 10},
-	  {name: 'маг', health: 100},
-	  {name: 'лучник', health: 80},
-	];
-	const expected = [
-	  {name: 'маг', health: 100},
-	  {name: 'лучник', health: 80},
-	  {name: 'мечник', health: 10},
-	];
-	const recieved = sort(arr);
+const arr = [
+	{ name: 'мечник', health: 10 },
+	{ name: 'маг', health: 100 },
+	{ name: 'лучник', health: 80 },
+];
+const expected = [
+	{ name: 'маг', health: 100 },
+	{ name: 'лучник', health: 80 },
+	{ name: 'мечник', health: 10 },
+];
+const recieved = sort(arr);
 
-	expect(recieved).toEqual(expected);
+expect(recieved).toEqual(expected);
 
 })
