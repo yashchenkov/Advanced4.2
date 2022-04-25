@@ -12,7 +12,5 @@ test('testing sort func', () => {
     { name: 'мечник', health: 10 },
   ];
   const recieved = sort(arr);
-
-expect(recieved).toEqual(expected);
-
+  expect(recieved).toEqual(expected);
 });
